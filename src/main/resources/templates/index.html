@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Education Web App</title>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index" class="logo">
+                <h4>YourAcademy</h4>
+            </a>
+            <ul class="nav__menu">
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="about">About</a>
+                </li>
+                <li>
+                    <a href="facilities">More</a>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+                <li>
+                    <a href="/login">Login</a>
+                </li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills to advance your carrer path</h1>
+                <p>Discover a wide range of state-of-the-art college education facilities including modern classrooms,
+                    advanced laboratories, extensive libraries, vibrant student centers, and cutting-edge technology
+                    resources, designed to enhance learning, research, and student engagement.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="images/header.svg" alt="" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Notes Categories</h1>
+                <p>Find comprehensive course notes covering key concepts, detailed explanations, and essential study
+                    materials designed to support your learning and success across various subjects. Perfect for review,
+                    exam preparation, and enhancing your understanding of course content.</p>
+                <a href="notes" class="btn">Explore More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+                    <h5>Business & Financial</h5>
+                    <p>Enhance business acumen with comprehensive financial course notes.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-robot"></i></span>
+                    <h5>Technology & Engineering</h5>
+                    <p>Tech & Engineering course notes: essential insights for academic excellence.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-user-arrows"></i></span>
+                    <h5>Social Science</h5>
+                    <p>Condensed social science course notes for comprehensive understanding.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-desktop"></i></span>
+                    <h5>MCA</h5>
+                    <p>MCA course notes: concise, comprehensive, essential for success.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-balance-scale"></i></span>
+                    <h5>LLM</h5>
+                    <p>LLM course notes: concise, comprehensive, and essential for legal studies.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-head-side"></i></span>
+                    <h5>Sociology</h5>
+                    <p>Sociology course notes: key concepts, explanations, exam prep.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h2>Our Popular Facilities</h2>
+        <div class="container facilities__container">
+            <article class="facilitie">
+                <div class="facilitie__image">
+                    <img src="/images/facility/notes.jpg" alt="" />
+                </div>
+                <div class="facilitie__info">
+                    <h4>Course Related Notes</h4>
+                    <p>Access concise, essential course notes to enhance understanding and aid exam preparation across
+                        various subjects.</p>
+                    <a href="/notes" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="facilitie">
+                <div class="facilitie__image">
+                    <img src="/images/facility/events.jpg" alt="" />
+                </div>
+                <div class="facilitie__info">
+                    <h4>Workshop/Events</h4>
+                    <p>Explore engaging workshops and exciting events fostering personal growth, professional
+                        development, and community interaction for diverse interests and passions.</p>
+                    <a href="/events" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="facilitie">
+                <div class="facilitie__image">
+                    <img src="/images/facility/buy.jpg" alt="" />
+                </div>
+                <div class="facilitie__info">
+                    <h4>Buy/Sell</h4>
+                    <p>Explore a seamless platform for buying and selling goods, connecting buyers and sellers for
+                        effortless transactions and exchanges.</p>
+                    <a href="/BuySell" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+        <div class="btn-more">
+            <a href="/facilities" class="btn btn-primary">Explore More Facilities</a>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How can I access my course materials online?</h4>
+                    <p>Access your course materials online through our learning management system (LMS). Log in using
+                        your student credentials to view lectures, readings, assignments, and additional resources
+                        anytime, anywhere.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>What support services are available for students with disabilities?</h4>
+                    <p>Students with disabilities have access to a range of support services including accommodations,
+                        assistive technology, counseling, and academic advising tailored to their individual needs for
+                        academic success and inclusivity.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Are there opportunities for internships or work-study programs?</h4>
+                    <p>
+                        Yes, our college provides various opportunities for internships and work-study programs,
+                        allowing students to gain valuable real-world experience and develop essential skills for their
+                        future careers.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I apply for financial aid and scholarships?</h4>
+                    <p>
+                        To apply for financial aid and scholarships, complete the FAFSA form online and explore
+                        scholarship opportunities through the college's website, ensuring to meet all specified
+                        deadlines for consideration.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Can I transfer credits from another institution?</h4>
+                    <p>
+                        Yes, we accept transfer credits from accredited institutions. Please submit official transcripts
+                        for evaluation by our admissions department to determine transfer eligibility.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>What academic resources are available for tutoring and academic support?</h4>
+                    <p>Access a range of academic resources including tutoring services, study groups, writing centers,
+                        and academic advisors who provide personalized support to enhance your learning and success.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Are there opportunities for study abroad or exchange programs?</h4>
+                    <p>Yes, our institution offers various study abroad and exchange programs allowing students to
+                        immerse themselves in different cultures, broaden their perspectives, and enhance their academic
+                        experience.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I register for classes and plan my course schedule?</h4>
+                    <p>Navigate to the online student portal, select desired courses, and add them to your schedule.
+                        Utilize academic advisors for guidance in planning your course load and meeting graduation
+                        requirements.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>What career guidance and job placement services does the college offer?</h4>
+                    <p>
+                        The college provides comprehensive career guidance, including resume building, interview
+                        preparation, networking opportunities, and access to job postings, fostering a path towards
+                        successful employment for graduates.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How can I get involved in extracurricular activities and student organizations?</h4>
+                    <p>
+                        Explore diverse extracurricular activities and student organizations by attending club fairs,
+                        checking campus announcements, and contacting the Student Affairs office for opportunities to
+                        join and engage in campus life.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Tetimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Priti Maratha</h5>
+                    <small>Faculty</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>The website's interactive lessons helped me grasp difficult concepts easily.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Abhishek Rai</h5>
+                    <small>Java Developper</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Accessing resources online made studying more convenient and efficient.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Ajay</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I appreciated the personalized feedback and support from instructors.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Radhika</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>The discussion forums facilitated meaningful peer-to-peer learning experiences.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg" alt="" />
+                </div>
+                <div class="testimonial__info">
+                    <h5>Ruchi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Thanks to the website, I felt more engaged and motivated to excel in my studies.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index" class="footer__logo"><img src="./images/fulllogo.png" alt="" /></a>
+                <p>Discover a wide range of state-of-the-art college education facilities.</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li>
+                        <a href="index">Home</a>
+                    </li>
+                    <li>
+                        <a href="about">About</a>
+                    </li>
+                    <li>
+                        <a href="facilities">More Facilities</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms and Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Refund Policy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9876543210</p>
+                    <p>gautam@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; YourAcademy</small>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            //window width>=600
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            },
+            autoplay: {
+                delay: 5000
+            }
+        })
+    </script>
+</body>
+
+</html>
