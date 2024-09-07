@@ -1,0 +1,22 @@
+University Web Application
+
+Project Objective:
+  - Manage Student records, Courses, Notes, and Pg Details.
+  - Provide an integrated platform for students and staff members.
+
+Technologies Used:
+  - Frontend and Backend: Html, Css, Bootstrap, Java, Spring Boot
+  - Database: MySQL
+  - APIs: RESTful API 
+  - Tools: Maven
+
+Key Features:
+  - Student management: Login and Register for Courses and Notes.
+  - Staff management: Can schedule the test link for studens.
+  - PG Management for students to get PG according to there requirements.
+  - Resource management.
+
+Contributions:
+  - Developed RESTful APIs for Student and Pg modules.
+  - Optimized database queries for efficient data retrieval.
+  - Worked with cross-functional teams to ensure a seamless user experience.
